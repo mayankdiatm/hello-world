@@ -11,6 +11,8 @@ def rename_files():
     # (2) Read the file name and remove numbers it contains
     for file_name in file_list:
         os.rename(file_name,file_name.translate(None, "0123456789"))
+    
+     
        
 
 
