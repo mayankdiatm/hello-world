@@ -1,4 +1,4 @@
-
+# import
 import goslate
 gs = goslate.Goslate()
 data = raw_input("data : ")
